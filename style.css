@@ -130,3 +130,34 @@ footer a{
 footer a:hover{
   text-decoration: underline;
 }
+
+/* Modal Portfolio */
+.modal-portfolio {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-content {
+  background: #222;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.3);
+  text-align: center;
+  max-width: 90vw;
+}
+.close-modal {
+  position: absolute;
+  right: 24px;
+  top: 16px;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
