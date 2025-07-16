@@ -1,5 +1,6 @@
 const link = [
     {nome: "Portfolio", url:"..."},
+    {nome: "Currículo", url:"https://drive.google.com/file/d/14AG1odOBB_DMQUttPBgw-rb_kzAxsHRs/view?usp=sharing"}
     //add mais itens aqui
 ];
 
